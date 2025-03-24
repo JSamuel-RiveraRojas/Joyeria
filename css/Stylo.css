@@ -1,0 +1,67 @@
+.LG{
+    width: 100px;
+}
+
+body{
+
+    background-color: #ffffff;
+}
+ 
+nav{
+    background-color: rgb(238, 183, 183);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+nav a {
+     margin: 30px;
+      color: rgb(51, 48, 48);
+      display: flex;
+      display:inline;
+      text-decoration: none;
+}
+
+nav :hover{
+    color: rgb(69, 138, 184);
+}
+.inico{
+    background-image: url(../Img/collaar.webps);
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background-image {
+    background-image: url('../Img/collaar.webp'); 
+    background-size: cover;
+    background-position: center;
+    
+    height: 200Px ; 
+    color: rgb(255, 238, 238);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+
+  .lol {
+    display: flex;
+    flex-direction:column-reverse ;
+    color:rgb(85, 84, 75);
+    margin-left: 20px;
+  }
+.masvendido{
+    
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    overflow:hidden;
+    box-shadow: 0.5.10;
+   
+
+}
+  footer{
+    background-color: rgba(197, 150, 79, 0.74);
+    text-align: center;
+ }

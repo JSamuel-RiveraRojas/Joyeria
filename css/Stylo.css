@@ -41,8 +41,8 @@ body {
     
     height: 200Px ; 
     color: rgb(255, 238, 238);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px rgba(255, 100, 100, 0.7);
+    box-shadow: 2px 2px 4px rgba(255, 159, 159, 0.7);
   }
 
   .lol {
@@ -52,16 +52,76 @@ body {
     margin-left: 20px;
   }
 .masvendido{
-    
-    width: 300px;
-    margin: 20px;
-    border-radius: 20px;
-    overflow:hidden;
-    box-shadow: 0.5.10;
-   
+  width: 300px;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px rgb(255, 166, 162);
+  background-color: rgba(223, 171, 74, 0.87);
+  
 
 }
-  footer{
+.carta {
+  width: 300px;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px rgb(223, 119, 101);
+  background-color: rgb(252, 255, 246);
+
+}
+
+.carta img{
+  display: block;
+  width: 280px; 
+  margin: 10px auto 25px;
+  border-radius: 9%; 
+  border: solid 2px rgb(255, 246, 221); 
+  border-color: rgb(233, 215, 255);
+}
+
+.masvendido img{
+  display: block;
+    width: 280px; 
+    margin: 10px auto 25px;
+    border-radius: 9%; 
+    border: solid 2px rgb(211, 147, 147); 
+    border-color: rgb(0, 100, 87);
+
+    
+}
+.cardcontent{
+  padding: 10px;
+  text-align: center;
+}
+
+.tarjetas{
+  display: flex;
+ justify-content: space-around;
+}
+
+  .futer{
     background-color: rgba(197, 150, 79, 0.74);
     text-align: center;
+    padding: 20px;
  }
+ 
+.pri{
+  display: flex;
+  justify-content: space-around;
+  text-align: start;
+}
+
+.prin{
+  display: flex;
+  justify-content: space-around;
+  background-image: url(../Img/texture.jpg.jpg);
+}
+.button{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 15px;
+  border-radius: 15PX;
+  background-color: #F2EFE9;
+  border-color: #dfbf58;
+}
